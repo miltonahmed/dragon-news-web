@@ -4,13 +4,9 @@ import Header from "../Components/Header/Header";
 const Root = () => {
   return (
     <div>
-      <Header />
+      <Header/>
       <main>
-        <section className="left"></section>
-        <section className="main">
-          <Outlet />
-        </section>
-        <section className="right"></section>
+        <Outlet></Outlet>
       </main>
     </div>
   );
