@@ -31,7 +31,6 @@ const Navbar = () => {
           <img src={user} />
           <button className="btn btn-primary px-10">Login</button>
         </div>
-      
     </nav>
   );
 };

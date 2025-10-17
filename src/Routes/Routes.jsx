@@ -1,4 +1,5 @@
 import { createBrowserRouter } from "react-router";
+import CategoryNews from "../Components/Home/CategoryNews";
 import Root from "../Layouts/Root";
 import About from "../Pages/About";
 import Career from "../Pages/Career";
@@ -22,6 +23,10 @@ import Home from "../Pages/Home";
        {
          path: '/career',
          Component:Career,
+       },
+       {
+         path: '/category/:id',
+         Component:CategoryNews
        }
      ]
   }
