@@ -1,5 +1,5 @@
 import { Suspense } from 'react';
-import Categories from './Categories';
+import Categories from '../Categories';
 
 const LeftAside = () => {
   return (

@@ -1,7 +1,7 @@
 import { Outlet } from 'react-router';
 import Header from '../Components/Header/Header';
-import LeftAside from '../Components/Home/LeftAside';
-import RightAside from '../Components/Home/RightAside';
+import LeftAside from '../Components/Home/LeftAssaid/LeftAside';
+import RightAside from '../Components/Home/RightAside/RightAside';
 
 const Root = () => {
   return (
