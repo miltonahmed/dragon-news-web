@@ -6,9 +6,9 @@ import RightAside from '../Components/Home/RightAside/RightAside';
 const Root = () => {
   return (
     <div>
-      <header>
+      <Header>
         <Header />
-      </header>
+      </Header>
       <main className='max-w-11/12 mx-auto grid grid-cols-12'>
         <aside className='col-span-3 sticky top-0 h-fit'>
           <LeftAside></LeftAside>
