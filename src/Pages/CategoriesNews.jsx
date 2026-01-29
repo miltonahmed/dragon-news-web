@@ -12,7 +12,7 @@ const CategoriesNews = () => {
       setCategoriesNews(data);
       return;
     } else if (id == '1') {
-      const filterData = data.filter(news => news.is_today_pick == true);
+      const filterData = data.filter(news => news.others.is_today_pick == true);
       setCategoriesNews(filterData)
     }
     else {
