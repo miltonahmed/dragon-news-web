@@ -4,7 +4,7 @@ import SocialLogin from "./SocialLogin"
 
 const RightAside = () => {
   return (
-    <div>
+    <div className="space-y-8">
       <SocialLogin></SocialLogin>
       <FindUs />
       <QZone/>
